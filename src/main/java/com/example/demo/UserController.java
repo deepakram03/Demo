@@ -15,7 +15,7 @@ public class UserController {
 	@GetMapping("/user")  
 	private List<User> getAllUsers()   
 	{  
-		System.out.println("inside getAllUsers in ctrler");
+		System.out.println("inside getAllUsers ");
 	return userService.getAllUsers(); 
 	
 	}  
